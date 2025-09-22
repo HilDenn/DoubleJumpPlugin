@@ -42,7 +42,7 @@ public class Events implements Listener {
             player.setVelocity(player.getLocation().getDirection().multiply(3).setY(1));
             jumpCooldown.replace(player, System.currentTimeMillis());
         } else {
-            player.sendMessage("Тибе асталас" + (cooldown - (System.currentTimeMillis() - jumpCooldown.get(player))));
+            player.sendMessage("Ждать - " + (cooldown - (System.currentTimeMillis() - jumpCooldown.get(player))));
         }
 
 
