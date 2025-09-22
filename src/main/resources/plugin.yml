@@ -1,0 +1,4 @@
+name: DoubleJump
+version: '${project.version}'
+main: me.hilden.doublejump.DoubleJump
+load: STARTUP

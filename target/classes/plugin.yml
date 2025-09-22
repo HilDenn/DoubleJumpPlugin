@@ -1,0 +1,4 @@
+name: DoubleJump
+version: '1.0-SNAPSHOT'
+main: me.hilden.doublejump.DoubleJump
+load: STARTUP
